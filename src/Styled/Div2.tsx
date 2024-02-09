@@ -5,5 +5,5 @@ export const Div2 = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:7px;
+    gap:4px;
 `
