@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-    width: 280px;
+    width: 250px;
     box-shadow: 5px 5px 5px 5px #dedede;
     /* height: 58vh; */
     height: 300px;
