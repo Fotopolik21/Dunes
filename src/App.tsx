@@ -18,7 +18,7 @@ function App() {
 
           <DivMini><h6>Cryptography is a method of protecting information and communications through the.</h6></DivMini>
           <Div2>
-            <BStyle>See more</BStyle>
+            <BStyle><a href="https://education.nationalgeographic.org/resource/dune/" target='table'>See more</a></BStyle>
             <BStyle btnType ="Another">Save</BStyle>
           </Div2>
         </Div>
@@ -29,11 +29,3 @@ function App() {
 }
 
 export default App
-
-// type ImgPropsType = {
-//   title:string
-// }
-// function Img(_props:ImgPropsType) {
-//   console.log("Img rendering")
-//   return <ImgStyle>{_props.title}</ImgStyle>
-// }

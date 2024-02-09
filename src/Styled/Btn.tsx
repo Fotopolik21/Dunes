@@ -14,6 +14,7 @@ export const BStyle = styled.button<StyledBtnPropsType>`
     color: #ffffff;
     margin-left:5px;
     margin-top:0px;
+    /* text-decoration: none; */
     
     ${props => props.btnType === "Another" && css <StyledBtnPropsType>`
         color:#3f6efc;
