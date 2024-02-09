@@ -15,14 +15,19 @@ export const BStyle = styled.button<StyledBtnPropsType>`
     margin-left:5px;
     margin-top:0px;
     /* text-decoration: none; */
+    cursor: pointer;
+    &:hover {
+        background-color: #3265ff;
+    }
     
     ${props => props.btnType === "Another" && css <StyledBtnPropsType>`
         color:#3f6efc;
         background-color:#ffffff;
         border:2px solid #3f6efc;
         padding: 6px 30px;
+        &:hover {
+        background-color: #dedede;}
+    }
     `
     }
-    
-    
 `
