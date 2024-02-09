@@ -12,12 +12,14 @@ export const BStyle = styled.button<StyledBtnPropsType>`
     font-weight:bold;
     /* margin:1px; */
     color: #ffffff;
+    /* font-family: serif; */
     margin-left:5px;
     margin-top:0px;
     /* text-decoration: none; */
     cursor: pointer;
     &:hover {
         background-color: #3265ff;
+        transition: all .13s;
     }
     
     ${props => props.btnType === "Another" && css <StyledBtnPropsType>`

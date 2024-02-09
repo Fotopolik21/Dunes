@@ -15,5 +15,7 @@ export const Box = styled.div`
     flex-direction: column;
     padding: 12px;
     gap: 10px;
+    /* font-family: Georgia, serif; */
+    font-family: "Gill Sans", sans-serif;
     /* font-family: 'Courier New'; */
 `
