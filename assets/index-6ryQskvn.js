@@ -83,15 +83,20 @@ Error generating stack: `+o.message+`
     margin-left:5px;
     margin-top:0px;
     /* text-decoration: none; */
+    cursor: pointer;
+    &:hover {
+        background-color: #3265ff;
+    }
     
     ${e=>e.btnType==="Another"&&td`
         color:#3f6efc;
         background-color:#ffffff;
         border:2px solid #3f6efc;
         padding: 6px 30px;
+        &:hover {
+        background-color: #dedede;}
+    }
     `}
-    
-    
 `,Om=en.div`
     height: 30px;
     display: flex;
