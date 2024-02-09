@@ -53,6 +53,8 @@ Error generating stack: `+o.message+`
     flex-direction: column;
     padding: 12px;
     gap: 10px;
+    /* font-family: Georgia, serif; */
+    font-family: "Gill Sans", sans-serif;
     /* font-family: 'Courier New'; */
 `,$m=en.div`
     border-radius:10px;
@@ -80,12 +82,14 @@ Error generating stack: `+o.message+`
     font-weight:bold;
     /* margin:1px; */
     color: #ffffff;
+    /* font-family: serif; */
     margin-left:5px;
     margin-top:0px;
     /* text-decoration: none; */
     cursor: pointer;
     &:hover {
         background-color: #3265ff;
+        transition: all .13s;
     }
     
     ${e=>e.btnType==="Another"&&td`
